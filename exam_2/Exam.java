@@ -31,7 +31,7 @@ public class Exam {
         // print "COMPOSITE" if the last digit of your student number is a composite
         // number.
         // print "NEITHER" if the last digit of your student number is neither a prime
-        // or a composite number.
+        // nor a composite number.
         // (10 pts)
 
         System.out.println("2. PRIME or COMPOSITE number");
