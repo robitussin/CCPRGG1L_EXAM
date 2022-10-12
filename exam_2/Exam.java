@@ -17,13 +17,12 @@ public class Exam {
 
         // ==============================================================================
         // 1. Create a method that will:
-        // print "POSITIVE" if the number is a positive number. 
-        // print "NEGATIVE" if the number is a negative number. 
-        // print "ZERO" if the number is ZERO. 
-        //(10 pts)
-        System.out.println("1. Positive, negative, zero");
-        System.out.print("Enter a number: ");
-        int number = scan.nextInt();
+        // print "ODD" if the last two digits of your student number is an odd number
+        // print "EVEN" if the last two digits of your student number is an even number.
+        // (10 pts)
+        System.out.println("1. ODD or EVEN numbers");
+        System.out.print("Enter the last two digits of your student number: ");
+        int lastTwoDigits = scan.nextInt();
         // ==============================================================================
 
         // 2. Create a method that will:
@@ -50,8 +49,9 @@ public class Exam {
 
         // ==============================================================================
 
-        // 4. Create a method that will take three whole numbers and print the largest number.
-   
+        // 4. Create a method that will take three whole numbers and print the largest
+        // number.
+
         System.out.println("4. Largest Number");
         System.out.print("Enter first number: ");
         int firstNumber = scan.nextInt();
@@ -60,15 +60,13 @@ public class Exam {
         System.out.print("Enter third number: ");
         int thirdNumber = scan.nextInt();
 
-
         // ==============================================================================
 
-        // 5. Create a method that will print "VOWEL" if your name starts with
-        // a vowel and "CONSONANT" if your name starts with a consonant.
-        
-        System.out.println("5. Vowel or Consonant");
-        System.out.print("Enter the first character of your first name: ");
-        char firstChar = scan.next().charAt(0);
+        // 5. Create a method and think of a formula to get the last 6 digits of your
+        // student number. (10 pts)
+        System.out.println("5. Last six digits");
+        System.out.print("Enter your ten digit student number: ");
+        int studentNumber = scan.nextInt();
 
         // =========================================================================================================================
 
@@ -81,7 +79,7 @@ public class Exam {
         // number. (10 pts)
         System.out.println("6. Student number validation");
         System.out.print("Enter your ten digit student number: ");
-        int studentNumber = scan.nextInt();
+        studentNumber = scan.nextInt();
 
         // ==============================================================================
 
@@ -144,10 +142,11 @@ public class Exam {
 
         // ==============================================================================
 
-        // 10. Create a condition to check if your student email address contains the following pattern:
+        // 10. Create a condition to check if your student email address contains the
+        // following pattern:
         // - Your surname
-        // - The string "@student.national-u.edu.ph"
-        //(10 pts)
+        // - The string "@students.national-u.edu.ph"
+        // (10 pts)
         System.out.println("10. Validate student email address ");
         System.out.print("Enter your student email address: ");
         String studentEmailAddress = scan.next();
@@ -155,26 +154,19 @@ public class Exam {
         // ==============================================================================
         // Programming competition/Job interview level question (20 points)
 
-        // 11. Think like an ATM.
+        // 11. Mystery method :-)
 
-        // You have an N amount of pesos in your savings account and you have decided
-        // that you want to withdraw all of your money in the ATM.
+        // Find the formula of method f(n) that accepts any positive integer n.
 
-        // The denomination of peso bills that the ATM could dispense are 20, 50, 100,
-        // 200, 500, 1000.
+        // If n = 4, result is 2
+        // f(4) = - 1 + 2 - 3 + 4 = 2
 
-        // Create a method that will return the minimum number of peso bills that the
-        // ATM will dispense after withdrawing all of your money.
+        // If n = 5, result is -3
+        // f(5) = - 1 + 2 - 3 + 4 - 5 = - 3
 
-        // Example:
-        // Elizer has 150 pesos in his bank account. If elizer withdraws 150 pesos in
-        // the ATM, the ATM will dispense two peso bills (100 peso bill and 50 peso
-        // bill). (Answer is 2)
-
-        System.out.println("11. Think like an ATM");
-        System.out.print("Enter the total amount of money in your bank account: ");
-        int amount = scan.nextInt();
-
+        System.out.println("11. Mystery method! :-)");
+        System.out.print("Enter value of n: ");
+        int n = scan.nextInt();
         // Close scanner
         scan.close();
     }
