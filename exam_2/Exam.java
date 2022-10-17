@@ -17,12 +17,13 @@ public class Exam {
 
         // ==============================================================================
         // 1. Create a method that will:
-        // print "ODD" if the last two digits of your student number is an odd number
-        // print "EVEN" if the last two digits of your student number is an even number.
-        // (10 pts)
-        System.out.println("1. ODD or EVEN numbers");
-        System.out.print("Enter the last two digits of your student number: ");
-        int lastTwoDigits = scan.nextInt();
+        // print "POSITIVE" if the number is a positive number. 
+        // print "NEGATIVE" if the number is a negative number. 
+        // print "ZERO" if the number is ZERO. 
+        //(10 pts)
+        System.out.println("1. Positive, negative, zero");
+        System.out.print("Enter a number: ");
+        int number = scan.nextInt();
         // ==============================================================================
 
         // 2. Create a method that will:
@@ -30,7 +31,7 @@ public class Exam {
         // print "COMPOSITE" if the last digit of your student number is a composite
         // number.
         // print "NEITHER" if the last digit of your student number is neither a prime
-        // nor a composite number.
+        // or a composite number.
         // (10 pts)
 
         System.out.println("2. PRIME or COMPOSITE number");
@@ -49,9 +50,8 @@ public class Exam {
 
         // ==============================================================================
 
-        // 4. Create a method that will take three whole numbers and print the largest
-        // number.
-
+        // 4. Create a method that will take three whole numbers and print the largest number.
+   
         System.out.println("4. Largest Number");
         System.out.print("Enter first number: ");
         int firstNumber = scan.nextInt();
@@ -60,13 +60,15 @@ public class Exam {
         System.out.print("Enter third number: ");
         int thirdNumber = scan.nextInt();
 
+
         // ==============================================================================
 
-        // 5. Create a method and think of a formula to get the last 6 digits of your
-        // student number. (10 pts)
-        System.out.println("5. Last six digits");
-        System.out.print("Enter your ten digit student number: ");
-        int studentNumber = scan.nextInt();
+        // 5. Create a method that will print "VOWEL" if your name starts with
+        // a vowel and "CONSONANT" if your name starts with a consonant.
+        
+        System.out.println("5. Vowel or Consonant");
+        System.out.print("Enter the first character of your first name: ");
+        char firstChar = scan.next().charAt(0);
 
         // =========================================================================================================================
 
@@ -79,7 +81,7 @@ public class Exam {
         // number. (10 pts)
         System.out.println("6. Student number validation");
         System.out.print("Enter your ten digit student number: ");
-        studentNumber = scan.nextInt();
+        int studentNumber = scan.nextInt();
 
         // ==============================================================================
 
@@ -142,31 +144,14 @@ public class Exam {
 
         // ==============================================================================
 
-        // 10. Create a condition to check if your student email address contains the
-        // following pattern:
+        // 10. Create a condition to check if your student email address contains the following pattern:
         // - Your surname
         // - The string "@students.national-u.edu.ph"
-        // (10 pts)
+        //(10 pts)
         System.out.println("10. Validate student email address ");
         System.out.print("Enter your student email address: ");
         String studentEmailAddress = scan.next();
 
-        // ==============================================================================
-        // Programming competition/Job interview level question (20 points)
-
-        // 11. Mystery method :-)
-
-        // Find the formula of method f(n) that accepts any positive integer n.
-
-        // If n = 4, result is 2
-        // f(4) = - 1 + 2 - 3 + 4 = 2
-
-        // If n = 5, result is -3
-        // f(5) = - 1 + 2 - 3 + 4 - 5 = - 3
-
-        System.out.println("11. Mystery method! :-)");
-        System.out.print("Enter value of n: ");
-        int n = scan.nextInt();
         // Close scanner
         scan.close();
     }
