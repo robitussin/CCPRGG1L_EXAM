@@ -1,6 +1,6 @@
 # Final Exam
 
-**1. Download the Exam.java file**  
+**1. Download the FinalExam.java file**  
 
 **2. Please follow the instructions in the file** 
 
