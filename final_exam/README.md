@@ -1,6 +1,6 @@
 # Final Exam
 
-**1. Download the Exam.java file**  
+**1. Download the FinalExam.java file**  
 
 **2. Please follow the instructions in the file** 
 
@@ -13,4 +13,4 @@
 
 Good luck! You can do it! <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50" />
 
-<img align="center" width=300px alt="Unicorn" src="https://media.giphy.com/media/3ohs4BSacFKI7A717y/giphy.gif" />
+<img align="center" width=800px alt="Unicorn" src="https://github.com/robitussin/CCPRGG1L_EXAM/blob/42387032bad6386fdb0400933ffe6993e46bd86b/final_exam/word_puzzle.png" />
