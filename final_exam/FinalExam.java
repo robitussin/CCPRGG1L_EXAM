@@ -4,108 +4,128 @@ public class FinalExam {
         // Print the words in their given pattern.
 
         char[][] array = {
-                { 'R', 'E', 'I', 'M', 'A', 'E', 'R', 'S', 'G', 'T' },
-                { 'E', 'V', 'D', 'B', 'D', 'V', 'I', 'A', 'B', 'I' },
-                { 'E', 'L', 'R', 'O', 'F', 'S', 'A', 'W', 'U', 'K' },
-                { 'B', 'G', 'C', 'E', 'I', 'L', 'C', 'J', 'H', 'T' },
-                { 'S', 'S', 'K', 'G', 'D', 'Z', 'H', 'S', 'T', 'O' },
-                { 'V', 'M', 'J', 'A', 'V', 'H', 'Z', 'S', 'I', 'K' },
-                { 'C', 'H', 'I', 'L', 'L', 'T', 'O', 'P', 'G', 'M' },
-                { 'Y', 'S', 'P', 'I', 'T', 'A', 'P', 'R', 'W', 'D' },
-                { 'G', 'B', 'D', 'S', 'T', 'K', 'P', 'W', 'S', 'O' },
-                { 'G', 'T', 'L', 'H', 'Q', 'X', 'Q', 'L', 'O', 'E' },
+                { 'X', 'X', 'R', 'T', 'E', 'S', 'C', 'E', 'B', 'F', 'I', 'O', 'O', 'S', 'U' },
+                { 'L', 'I', 'J', 'G', 'I', 'A', 'Z', 'F', 'R', 'T', 'F', 'H', 'F', 'W', 'W' },
+                { 'L', 'L', 'N', 'F', 'U', 'H', 'M', 'I', 'O', 'E', 'N', 'R', 'H', 'D', 'E' },
+                { 'U', 'W', 'O', 'S', 'Q', 'B', 'D', 'W', 'S', 'P', 'Q', 'Y', 'R', 'D', 'P' },
+                { 'Z', 'U', 'R', 'Q', 'T', 'A', 'V', 'K', 'N', 'Y', 'F', 'L', 'C', 'O', 'S' },
+                { 'A', 'J', 'B', 'C', 'Y', 'A', 'H', 'V', 'O', 'H', 'R', 'P', 'T', 'S', 'T' },
+                { 'P', 'L', 'L', 'Z', 'P', 'J', 'G', 'B', 'F', 'Q', 'F', 'L', 'V', 'P', 'A' },
+                { 'F', 'I', 'I', 'A', 'P', 'U', 'J', 'R', 'L', 'V', 'L', 'L', 'P', 'H', 'R' },
+                { 'V', 'T', 'Z', 'N', 'I', 'K', 'U', 'C', 'A', 'I', 'B', 'Q', 'Q', 'Q', 'B' },
+                { 'U', 'U', 'Q', 'Z', 'A', 'J', 'M', 'J', 'H', 'M', 'U', 'J', 'M', 'J', 'U' },
+                { 'N', 'E', 'L', 'H', 'A', 'M', 'W', 'C', 'F', 'C', 'W', 'U', 'W', 'Z', 'C' },
+                { 'G', 'S', 'N', 'P', 'D', 'I', 'M', 'Q', 'X', 'J', 'D', 'A', 'P', 'Z', 'K' },
+                { 'C', 'D', 'S', 'K', 'C', 'U', 'Y', 'C', 'O', 'L', 'A', 'P', 'M', 'A', 'S' },
+                { 'M', 'A', 'P', 'U', 'L', 'U', 'T', 'A', 'N', 'H', 'X', 'H', 'S', 'W', 'Z' },
+                { 'Z', 'Y', 'N', 'E', 'D', 'I', 'N', 'J', 'P', 'U', 'Z', 'G', 'K', 'Q', 'K' },
         };
 
         // =============================================================
-        // ALAK - (10 points)
+        // ALFONSO - (10 points)
         System.out.println(" ");
-        System.out.println("1. ALAK ");
+        System.out.println("1. ALFONSO ");
 
         // =============================================================
-        // GITHUB - (10 points)
+        // INSTAGRAM - (10 points)
         System.out.println(" ");
-        System.out.println("2. GITHUB ");
+        System.out.println("2. INSTAGRAM ");
 
         // =============================================================
-        // SISIG - (10 points)
+        // PULUTAN - (10 points)
         System.out.println(" ");
-        System.out.println("3. SISIG ");
+        System.out.println("3. PULUTAN ");
 
         // =============================================================
-        // VSCODE - (10 points)
+        // TUESDAY - (10 points)
         System.out.println(" ");
-        System.out.println("4. VSCODE ");
-
-        // =============================================================
-        // BEER - (10 points)
-        System.out.println(" ");
-        System.out.println("5. BEER ");
-
-        // =============================================================
-        // JAVA - (10 points)
-        System.out.println(" ");
-        System.out.println("6. JAVA ");
-
-        // =============================================================
-        // TIKTOK - (10 points)
-        System.out.println(" ");
-        System.out.println("7. TIKTOK ");
+        System.out.println("4. TUESDAY ");
 
         // =============================================================
         // CHILLTOP - (10 points)
         System.out.println(" ");
-        System.out.println("8. CHILLTOP ");
+        System.out.println("5. CHILLTOP ");
 
         // =============================================================
-        // REDHORSE - (10 points)
+        // MANILA - (10 points)
         System.out.println(" ");
-        System.out.println("9. REDHORSE ");
+        System.out.println("6. MANILA ");
 
         // =============================================================
-        // TIPSY - (10 points)
+        // SAMPALOC - (10 points)
         System.out.println(" ");
-        System.out.println("10. TIPSY ");
+        System.out.println("7. SAMPALOC ");
+
+        // =============================================================
+        // FRIDAY - (10 points)
+        System.out.println(" ");
+        System.out.println("8. FRIDAY ");
+
+        // =============================================================
+        // PIZZA - (10 points)
+        System.out.println(" ");
+        System.out.println("9. PIZZA ");
+
+        // =============================================================
+        // STARBUCKS - (10 points)
+        System.out.println(" ");
+        System.out.println("10. STARBUCKS ");
 
         // =============================================================
 
         // BONUS
-        // SLY starts to learn programming. The first task is drawing a fox! However, that turns out to be too hard for a beginner, so she decides to draw a snake instead.
+        System.out.println(" ");
+        System.out.println("11. STARBUCKS ");
 
-        // A snake is a pattern on a n by m table. Denote c-th cell of r-th row as (r, c). The tail of the snake is located at (1, 1), then it's body extends to (1, m), then goes down 2 rows to (3, m), then goes left to (3, 1) and so on.
+        // Let s be a string of lowercase Latin letters. Its price is the sum of the
+        // indices of letters (an integer between 1 and 26) that are included in it. For
+        // example, the price of the string abca is 1 + 2 + 3 + 1 = 7.
 
-        // Your task is to draw this snake for Fox Ciel: the empty cells should be represented as dot characters ('.') and the snake cells should be filled with number signs ('#').
+        // The string w and the integer p are given. Remove the minimal number of
+        // letters from w so that its price becomes less than or equal to p and print
+        // the resulting string. Note that the resulting string may be empty. You can
+        // delete arbitrary letters, they do not have to go in a row. If the price of a
+        // given string w is less than or equal to p, then nothing needs to be deleted
+        // and w must be output.
 
-        // Consider sample tests in order to understand the snake pattern.
-        
-        
-        // Input
-        // The only line contains two integers: n and m (3 ≤ n, m ≤ 50).
+        // Note that when you delete a letter from w, the order of the remaining letters
+        // is preserved. For example, if you delete the letter e from the string test,
+        // you get tst.
 
-        // n is an odd number.
+        // Input:
+        // Each case consists of two lines.
 
-        // Output
-        // Output n lines. Each line should contain a string consisting of m characters. Do not output spaces.
-        
-        // Example
-        // Input: 3 3
-        
-        // ###
-        // ..#
-        // ###
-        // #..
-        // ###
-        
-        
-//         Input: 9 9
-            
-// #########
-// ........#
-// #########
-// #........
-// #########
-// ........#
-// #########
-// #........
-// #########
+        // The first of them is the string w, it is non-empty and consists of lowercase
+        // Latin letters.
+
+        // The second line contains an integer p (1 ≤ p ≤ 5200000).
+
+        // Output:
+        // Output exactly t rows, the i-th of them should contain the answer to the i-th
+        // set of input data. Print the longest string that is obtained from w by
+        // deleting letters such that its price is less or equal to p. If there are
+        // several answers, then output any of them.
+
+        // Note that the empty string — is one of the possible answers. In this case,
+        // just output an empty string.
+
+        // ================================================================================
+
+        // Example 1
+        // Input:
+        // abca
+        // 2
+
+        // Output:
+        // aa
+
+        // Example 2
+        // Input:
+        // abca
+        // 6
+
+        // Output:
+        // abc
+
     }
 }
