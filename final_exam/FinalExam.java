@@ -126,6 +126,14 @@ public class FinalExam {
 
         // Output:
         // abc
+        
+        // Example 3
+        // Input:
+        // elizer
+        // 50
+
+        // Output:
+        // elier
 
     }
 }
