@@ -75,7 +75,7 @@ public class FinalExam {
 
         // BONUS
         System.out.println(" ");
-        System.out.println("11. STARBUCKS ");
+        System.out.println("11. EVERYBODY HAS A PRICE! ");
 
         // Let s be a string of lowercase Latin letters. Its price is the sum of the
         // indices of letters (an integer between 1 and 26) that are included in it. For
