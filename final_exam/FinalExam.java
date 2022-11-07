@@ -73,7 +73,7 @@ public class FinalExam {
 
         // =============================================================
 
-        // BONUS
+        // BONUS (PRIZE AWAITS!)
         System.out.println(" ");
         System.out.println("11. EVERYBODY HAS A PRICE! ");
 
