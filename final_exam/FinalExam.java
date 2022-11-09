@@ -21,13 +21,6 @@ public class FinalExam {
                 { 'D', 'W', 'O', 'T', 'M', 'M', 'Q', 'B', 'O', 'U', 'H', 'J', 'L', 'G', 'C' }
         };
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(" ");
-            for (int j = 0; j < array.length; j++) {
-                System.out.print(array[i][j] + " ");
-            }
-        }
-
         // =============================================================
         // BANANAQUE - (10 points)
         System.out.println(" ");
