@@ -4,136 +4,130 @@ public class FinalExam {
         // Print the words in their given pattern.
 
         char[][] array = {
-                { 'X', 'X', 'R', 'T', 'E', 'S', 'C', 'E', 'B', 'F', 'I', 'O', 'O', 'S', 'U' },
-                { 'L', 'I', 'J', 'G', 'I', 'A', 'Z', 'F', 'R', 'T', 'F', 'H', 'F', 'W', 'W' },
-                { 'L', 'L', 'N', 'F', 'U', 'H', 'M', 'I', 'O', 'E', 'N', 'R', 'H', 'D', 'E' },
-                { 'U', 'W', 'O', 'S', 'Q', 'B', 'D', 'W', 'S', 'P', 'Q', 'Y', 'R', 'D', 'P' },
-                { 'Z', 'U', 'R', 'Q', 'T', 'A', 'V', 'K', 'N', 'Y', 'F', 'L', 'C', 'O', 'S' },
-                { 'A', 'J', 'B', 'C', 'Y', 'A', 'H', 'V', 'O', 'H', 'R', 'P', 'T', 'S', 'T' },
-                { 'P', 'L', 'L', 'Z', 'P', 'J', 'G', 'B', 'F', 'Q', 'F', 'L', 'V', 'P', 'A' },
-                { 'F', 'I', 'I', 'A', 'P', 'U', 'J', 'R', 'L', 'V', 'L', 'L', 'P', 'H', 'R' },
-                { 'V', 'T', 'Z', 'N', 'I', 'K', 'U', 'C', 'A', 'I', 'B', 'Q', 'Q', 'Q', 'B' },
-                { 'U', 'U', 'Q', 'Z', 'A', 'J', 'M', 'J', 'H', 'M', 'U', 'J', 'M', 'J', 'U' },
-                { 'N', 'E', 'L', 'H', 'A', 'M', 'W', 'C', 'F', 'C', 'W', 'U', 'W', 'Z', 'C' },
-                { 'G', 'S', 'N', 'P', 'D', 'I', 'M', 'Q', 'X', 'J', 'D', 'A', 'P', 'Z', 'K' },
-                { 'C', 'D', 'S', 'K', 'C', 'U', 'Y', 'C', 'O', 'L', 'A', 'P', 'M', 'A', 'S' },
-                { 'M', 'A', 'P', 'U', 'L', 'U', 'T', 'A', 'N', 'H', 'X', 'H', 'S', 'W', 'Z' },
-                { 'Z', 'Y', 'N', 'E', 'D', 'I', 'N', 'J', 'P', 'U', 'Z', 'G', 'K', 'Q', 'K' },
+                { 'A', 'S', 'R', 'S', 'S', 'U', 'U', 'I', 'O', 'L', 'M', 'A', 'U', 'Z', 'F' },
+                { 'Q', 'B', 'N', 'E', 'H', 'U', 'W', 'E', 'B', 'E', 'S', 'K', 'G', 'I', 'T' },
+                { 'B', 'A', 'N', 'A', 'N', 'A', 'Q', 'U', 'E', 'N', 'U', 'R', 'N', 'U', 'H' },
+                { 'Q', 'U', 'K', 'N', 'Q', 'L', 'S', 'L', 'X', 'O', 'M', 'A', 'J', 'S', 'G' },
+                { 'L', 'T', 'W', 'O', 'C', 'E', 'H', 'I', 'R', 'V', 'L', 'W', 'M', 'L', 'I' },
+                { 'M', 'I', 'T', 'U', 'V', 'Z', 'S', 'E', 'O', 'E', 'Y', 'B', 'G', 'E', 'L' },
+                { 'Q', 'W', 'K', 'L', 'E', 'C', 'U', 'J', 'X', 'M', 'N', 'F', 'W', 'K', 'G' },
+                { 'K', 'L', 'G', 'Y', 'N', 'Q', 'P', 'A', 'L', 'B', 'A', 'U', 'X', 'T', 'I' },
+                { 'M', 'O', 'U', 'H', 'E', 'B', 'M', 'T', 'M', 'E', 'J', 'I', 'R', 'F', 'M' },
+                { 'Y', 'U', 'T', 'B', 'P', 'U', 'M', 'H', 'Z', 'R', 'D', 'T', 'F', 'Y', 'N' },
+                { 'S', 'J', 'R', 'K', 'J', 'S', 'B', 'X', 'I', 'S', 'S', 'D', 'P', 'Y', 'A' },
+                { 'P', 'A', 'D', 'Y', 'I', 'N', 'U', 'X', 'D', 'R', 'G', 'Q', 'H', 'L', 'S' },
+                { 'B', 'R', 'L', 'P', 'Q', 'T', 'I', 'H', 'O', 'F', 'S', 'U', 'M', 'R', 'Y' },
+                { 'K', 'S', 'O', 'N', 'I', 'C', 'C', 'U', 'P', 'P', 'A', 'R', 'F', 'M', 'X' },
+                { 'D', 'W', 'O', 'T', 'M', 'M', 'Q', 'B', 'O', 'U', 'H', 'J', 'L', 'G', 'C' }
         };
 
-        // =============================================================
-        // ALFONSO - (10 points)
-        System.out.println(" ");
-        System.out.println("1. ALFONSO ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(" ");
+            for (int j = 0; j < array.length; j++) {
+                System.out.print(array[i][j] + " ");
+            }
+        }
 
         // =============================================================
-        // INSTAGRAM - (10 points)
+        // BANANAQUE - (10 points)
         System.out.println(" ");
-        System.out.println("2. INSTAGRAM ");
+        System.out.println("1. BANANAQUE ");
 
         // =============================================================
-        // PULUTAN - (10 points)
+        // FRAPPUCCINO - (10 points)
         System.out.println(" ");
-        System.out.println("3. PULUTAN ");
+        System.out.println("2. FRAPPUCCINO ");
 
         // =============================================================
-        // TUESDAY - (10 points)
+        // NOVEMBER - (10 points)
         System.out.println(" ");
-        System.out.println("4. TUESDAY ");
+        System.out.println("3. NOVEMBER ");
 
         // =============================================================
-        // CHILLTOP - (10 points)
+        // TIKTOK - (10 points)
         System.out.println(" ");
-        System.out.println("5. CHILLTOP ");
+        System.out.println("4. TIKTOK ");
 
         // =============================================================
-        // MANILA - (10 points)
+        // BARBEQUE - (10 points)
         System.out.println(" ");
-        System.out.println("6. MANILA ");
+        System.out.println("5. BARBEQUE ");
 
         // =============================================================
-        // SAMPALOC - (10 points)
+        // HUWEBES - (10 points)
         System.out.println(" ");
-        System.out.println("7. SAMPALOC ");
+        System.out.println("6. HUWEBES ");
 
         // =============================================================
-        // FRIDAY - (10 points)
+        // SANMIGLIGHT - (10 points)
         System.out.println(" ");
-        System.out.println("8. FRIDAY ");
+        System.out.println("7. SANMIGLIGHT ");
 
         // =============================================================
-        // PIZZA - (10 points)
+        // FINALEXAM - (10 points)
         System.out.println(" ");
-        System.out.println("9. PIZZA ");
+        System.out.println("8. FINALEXAM ");
 
         // =============================================================
-        // STARBUCKS - (10 points)
+        // LUNES - (10 points)
         System.out.println(" ");
-        System.out.println("10. STARBUCKS ");
+        System.out.println("9. LUNES ");
+
+        // =============================================================
+        // SIOMAI - (10 points)
+        System.out.println(" ");
+        System.out.println("10. SIOMAI ");
 
         // =============================================================
 
         // BONUS (PRIZE AWAITS!)
         System.out.println(" ");
-        System.out.println("11. EVERYBODY HAS A PRICE! ");
+        System.out.println("11. Elizer needs your help!");
 
-        // Let s be a string of lowercase Latin letters. Its price is the sum of the
-        // indices of letters (an integer between 1 and 26) that are included in it. For
-        // example, the price of the string abca is 1 + 2 + 3 + 1 = 7.
+        // Elizer loves to watch professional basketball. He is an avid fan of a certain
+        // team which he follows on social media.
+        // One day, he saw a post where his favorite team revealed their brand new home
+        // and guest uniforms for the upcoming season.
 
-        // The string w and the integer p are given. Remove the minimal number of
-        // letters from w so that its price becomes less than or equal to p and print
-        // the resulting string. Note that the resulting string may be empty. You can
-        // delete arbitrary letters, they do not have to go in a row. If the price of a
-        // given string w is less than or equal to p, then nothing needs to be deleted
-        // and w must be output.
+        // The home and guest uniform are of different color.
+        // All basketball teams have a home uniform which they wear if they are on their
+        // home arena. On the other hand, the guest uniform is worn by teams who are
+        // visiting their opponent's arena.
 
-        // Note that when you delete a letter from w, the order of the remaining letters
-        // is preserved. For example, if you delete the letter e from the string test,
-        // you get tst.
+        // Sometimes, the color of the guest uniform of the visiting team can be the
+        // same color with the uniform of the home team. If this happens, the home
+        // team will put on their guest uniform so that they would be different.
 
+        // There are n teams taking part in the regular season. Elizer asked himself how
+        // many times a home team will have to wear their guest uniform?
+
+        // The regular season consists of n * ( n - 1) games. Each team will have a home
+        // game and away game.
+        // The color of the uniforms are represented by integers. No two distinct colors
+        // can have the same number.
+        // Help Elizer find the answer to his question!
+
+        // Requirements
+        // 1. Ask for the number of n teams participating.
+        // 2. Ask for a pair of numbers, the home and away colors for each
+        // participating team.
+        // 3. The answer should be the number of times a home team will wear their away
+        // uniform.
+
+        // =============================================================
+        // Example:
         // Input:
-        // Each case consists of two lines.
+        // 3
+        // 1 2
+        // 2 4
+        // 3 4
 
-        // The first of them is the string w, it is non-empty and consists of lowercase
-        // Latin letters.
+        // Answer
+        // 1
 
-        // The second line contains an integer p (1 ≤ p ≤ 5200000).
-
-        // Output:
-        // Output exactly t rows, the i-th of them should contain the answer to the i-th
-        // set of input data. Print the longest string that is obtained from w by
-        // deleting letters such that its price is less or equal to p. If there are
-        // several answers, then output any of them.
-
-        // Note that the empty string — is one of the possible answers. In this case,
-        // just output an empty string.
-
-        // ================================================================================
-
-        // Example 1
-        // Input:
-        // abca
-        // 2
-
-        // Output:
-        // aa
-
-        // Example 2
-        // Input:
-        // abca
-        // 6
-
-        // Output:
-        // abc
-        
-        // Example 3
-        // Input:
-        // elizer
-        // 50
-
-        // Output:
-        // elier
+        // Note: In this example, the season will have a total of six games.
+        // There is game where team 2 will have to wear their guest uniform if team 1
+        // visits their arena.
 
     }
 }
