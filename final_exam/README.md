@@ -13,4 +13,4 @@
 
 Good luck! You can do it! <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50" />
 
-<img align="center" width=800px alt="Unicorn" src="https://github.com/robitussin/CCPRGG1L_EXAM/blob/0c5e8a3374e2943b7090cd003b87b17be0d1beae/final_exam/word_puzzle.png" />
+<img align="center" width=800px alt="Unicorn" src="https://github.com/robitussin/CCPRGG1L_EXAM/blob/56e0716c6481200969be9d378ddd3029d30f53e8/final_exam/word_puzzle.png" />
