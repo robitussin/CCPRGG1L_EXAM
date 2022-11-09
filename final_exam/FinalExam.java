@@ -121,6 +121,20 @@ public class FinalExam {
         // Note: In this example, the season will have a total of six games.
         // There is game where team 2 will have to wear their guest uniform if team 1
         // visits their arena.
-
+        
+        // BONUS (PRIZE AWAITS!)
+        System.out.println(" ");
+        System.out.println("12. Everybody has a price!");
+        
+        // Create a program and find out the condition to prove the following statements below.
+        // ELIZER == ZOPHIA is TRUE
+        // TONI > MARC is FALSE.
+        
+        // Input:
+        // The first line is any name in UPPERCASE which only consists of characters from A-Z;
+        // The second line is any name in UPPERCASE which only consists of characters from A-Z;
+        
+        // Output:
+        // TRUE or FALSE
     }
 }
